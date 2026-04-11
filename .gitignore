@@ -1,0 +1,5 @@
+storage/uploads/* 
+venv/
+__pycache__/
+*.pkl
+*.onnx
