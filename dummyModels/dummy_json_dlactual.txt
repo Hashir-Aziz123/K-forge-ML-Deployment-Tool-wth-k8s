@@ -1,0 +1,5 @@
+{
+  "transaction_amt": "float",
+  "account_age_days": "float",
+  "login_freq": "float"
+}

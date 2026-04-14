@@ -40,8 +40,7 @@ def generate_dockerfile(model_path: Path, output_dir: Path) -> Path:
             fastapi uvicorn pydantic gunicorn numpy {ml_package}
 
         # Copy the dynamically generated API script and the model artifact
-        COPY app.py /app/app.py
-        COPY {model_path.name} /app/{model_path.name}
+        COPY . /app
 
         EXPOSE 8000
 
