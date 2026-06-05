@@ -1,4 +1,4 @@
-# Kube-AI: Automated Kubernetes MLOps & Model Orchestration Platform
+# K-Forge: Automated Kubernetes MLOps & Model Orchestration Platform
 
 Kube-AI is an end-to-end MLOps platform designed to automate the lifecycle of machine learning models from raw artifact ingestion to scalable, containerized orchestration within a Kubernetes cluster. The system features a headless code-generation engine, an automated containerization pipeline, and a dynamic reverse-proxy mechanism to handle inference workloads without manual network provisioning.
 
